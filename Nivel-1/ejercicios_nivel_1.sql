@@ -1,4 +1,25 @@
 /*Examen final — Nivel 1
+Pregunta 6 · Práctica*/
+
+desc payment;
+desc customer;
+                                                                         
+/*
+pk payment_id | fk customer_id || payment.customer_id = customer.customer_id
+*/
+
+SELECT  payment.payment_id,
+		payment.amount,
+        customer.first_name,
+        customer.last_name
+FROM payment
+JOIN customer
+	ON payment.customer_id = customer.customer_id
+WHERE customer.last_name LIKE 'S%'
+ORDER BY payment.amount DESC
+LIMIT 10;
+
+/*Examen final — Nivel 1
 Pregunta 8 · Práctica*/
 
 DESC film;
