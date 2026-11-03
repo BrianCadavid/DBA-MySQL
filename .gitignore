@@ -1,0 +1,5 @@
+# Archivos temporales
+*.tmp
+
+# Archivos de respaldo
+*.bak
