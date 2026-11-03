@@ -1,4 +1,16 @@
 /*Examen final — Nivel 1
+Pregunta 4 · Práctica*/
+
+SELECT customer_id,
+        first_name,
+        last_name
+FROM customer
+WHERE last_name LIKE 'B%'  AND store_id = 1
+ORDER BY last_name ASC
+LIMIT 10;
+
+
+/*Examen final — Nivel 1
 Pregunta 6 · Práctica*/
 
 desc payment;
