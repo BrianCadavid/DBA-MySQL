@@ -67,4 +67,6 @@ DBA-MySQL/
 -[ ] Nivel 3: SQL intermedio: JOIN y análisis.
 
 
+## Práctica de ramas
 
+Este cambio fue realizado desde la rama practica-rama.
