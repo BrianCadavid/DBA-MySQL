@@ -74,3 +74,7 @@ Este cambio fue realizado desde la rama practica-rama.
 ## Segunda práctica de ramas
 
 Este cambio fue realizado utilizando git switch -c.
+
+## Práctica de ramas remotas
+
+Esta modificación fue realizada desde una rama local vinculada a una rama remota.
