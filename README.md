@@ -77,4 +77,4 @@ Este cambio fue realizado utilizando git switch -c.
 
 ## Práctica de ramas remotas
 
-Esta modificación fue realizada desde una rama local vinculada a una rama remota.
+Esta modificación fue realizada directamente desde la rama main.
